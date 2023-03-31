@@ -1,0 +1,6 @@
+expo start
+adb -s "emulator-5554" install ""
+npx eas update --channel preview
+
+
+"url": "https://u.expo.dev/e89cd51a-61f8-43e1-b80f-5cff5df57212"

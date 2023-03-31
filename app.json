@@ -15,16 +15,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.billal78.youtubeclonev2",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e89cd51a-61f8-43e1-b80f-5cff5df57212"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 6000,
+      "url": "https://u.expo.dev/e89cd51a-61f8-43e1-b80f-5cff5df57212"
     }
   }
 }
